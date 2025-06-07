@@ -1,0 +1,67 @@
+# === C / C++ ===
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.a
+*.so
+*.so.*
+*.dll
+*.exe
+*.out
+*.app
+*.dSYM/
+*.gcno
+*.gcda
+*.gcov
+*.gch
+*.pch
+
+# Build directories
+/build/
+/bin/
+/lib/
+/dist/
+/Debug/
+/Release/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# === Node.js / TypeScript ===
+node_modules/
+dist/
+build/
+lib/
+.tmp/
+.temp/
+
+# TypeScript
+*.tsbuildinfo
+*.tscache
+*.ts-node
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env
+.env
+.env.*
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Editor-specific ===
+.vscode/
+.idea/
+*.swp
+*~
